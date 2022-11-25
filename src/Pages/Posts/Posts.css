@@ -1,0 +1,245 @@
+@media only screen and (max-width: 1000px) {
+  .main_posts_conatiner {
+    width: 100%;
+    max-width: 692px;
+    height: fit-content;
+    margin-bottom: 16px;
+  }
+  .image_container > img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .post_type {
+    width: 100%;
+    height: 2rem;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(33, 37, 41, 1);
+  }
+  .post_title {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  .post_title > h6 {
+    width: 85%;
+    text-align: start;
+    word-break: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .post_title span > i {
+    transform: rotate(90deg);
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .post_description {
+    padding: 0px 15px;
+    font-weight: 400;
+  }
+  .user_info_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .user_profile {
+    width: fit-content;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .username_conatiner {
+    width: fit-content;
+    height: 37px;
+  }
+  .username_conatiner p:nth-child(1) {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .username_conatiner p:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .user_profile > img {
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: rgba(119, 119, 119, 0.4);
+  }
+  .share_btn > p {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: 4px;
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+  .location_container {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 15px;
+  }
+  .date_and_location {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(33, 37, 41, 1);
+  }
+  .website_btn {
+    width: 100%;
+    height: fit-content;
+    margin: 10px 0px;
+  }
+  .website_btn button {
+    width: 100%;
+    background-color: white;
+    border: 0.7px dashed #a9aeb8;
+    padding: 5px;
+    height: 34px;
+    font-weight: 600;
+    border-radius: 8px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .main_posts_conatiner {
+    width: 100%;
+    max-width: 692px;
+    height: fit-content;
+    margin-bottom: 16px;
+  }
+  .image_container > img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .post_type {
+    width: 100%;
+    height: 2rem;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(33, 37, 41, 1);
+  }
+  .post_title {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  .post_title > h6 {
+    width: 85%;
+    text-align: start;
+    word-break: normal;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .post_title span > i {
+    transform: rotate(90deg);
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .post_description {
+    padding: 0px 15px;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .user_info_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .user_profile {
+    width: fit-content;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .username_conatiner {
+    width: 32rem;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  .username_conatiner p:nth-child(1) {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .username_conatiner p:nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .user_profile > img {
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: rgba(119, 119, 119, 0.4);
+  }
+  .share_btn > p {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: 4px;
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+  .location_container {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 15px;
+  }
+  .date_and_location {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(33, 37, 41, 1);
+  }
+  .website_btn {
+    width: 100%;
+    height: fit-content;
+    margin: 10px 0px;
+  }
+  .website_btn button {
+    width: 100%;
+    background-color: white;
+    border: 0.7px dashed #a9aeb8;
+    padding: 5px;
+    height: 34px;
+    font-weight: 600;
+    border-radius: 8px;
+  }
+}

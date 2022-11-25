@@ -1,0 +1,54 @@
+.main_groupCard {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Rec_heading{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0px;
+}
+.group_image{
+    width: fit-content;
+    height: fit-content;
+}
+.Rec_group_info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+    font-size: 14px;
+}
+.Rec_info_container{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.Rec_group_name p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.group_image img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.join_group_btn button{
+    border: none;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.followed{
+    border: none;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
